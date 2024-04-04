@@ -5,6 +5,7 @@ import Login from "./components/Login";
 import SignUp from "./components/SignUp";
 import "./App.css";
 import ProtectedRoute from "./components/ProtectedRoute";
+import Users from "./components/Users";
 
 const App = () => (
   <BrowserRouter>
@@ -19,6 +20,7 @@ const App = () => (
       />
       <Route path="/login" element={<Login />} />
       <Route path="/sign-up" element={<SignUp />} />
+      <Route path="/users" element={<Users />} />
     </Routes>
   </BrowserRouter>
 );
