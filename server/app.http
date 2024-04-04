@@ -1,0 +1,10 @@
+POST http://localhost:3001/register
+Content-Type: application/json 
+
+{
+    "username": "napoleon2",
+    "password": "napoleon1234"
+}
+###
+GET http://localhost:3001/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InN1cmFqa3VyaWwxMjMiLCJpYXQiOjE3MTIyMzQzMDV9.OKq7tcxodOugW3DkFZ6M-E4HlBIZvtNmOXl2BFIG3U4
